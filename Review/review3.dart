@@ -13,12 +13,12 @@ void main() {
     'Mir',
     'Shahmorady'
   ];
-  print(familiesList.runtimeType);
-  print(familiesList.length);
-  print(familiesList.reversed);
-  print(familiesList.first);
-  print(familiesList.last);
-  print("-------------------------------");
+  //print(familiesList.runtimeType);
+  //print(familiesList.length);
+  //print(familiesList.reversed);
+  //print(familiesList.first);
+  //print(familiesList.last);
+  //print("-------------------------------");
   //familiesList.add("Dehbashi");
   //familiesList.addAll(namesList);
   //familiesList.clear();
@@ -26,12 +26,15 @@ void main() {
   familiesList[1] = "Noori";
   //print(familiesList.indexOf(ele).toString());
   familiesList.remove("Javadi");
-  print(familiesList);
+  //print(familiesList);
 
   //3
   var shoppingList = List.filled(5, "Dart");
-  print(shoppingList);
-  print("My Shopping List is Here:" + shoppingList.toString());
+  //print(shoppingList);
+  //print("My Shopping List is Here:" + shoppingList.toString());
   //print(shoppingList.runtimeType);
   //print(shoppingList);
+
+  namesList.addAll(shoppingList);
+  print("My Mixed List :" + " " + namesList.toString());
 }
